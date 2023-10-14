@@ -126,4 +126,63 @@
 // }
 
 
+// let n = parseInt(prompt('ukuca nesto Boga ti'));
+
+// let max = 0;
+
+// for(i=2; i<n, i++){
+//    let broj = parseFloat(prompt(`Unesite ${ i + 1 } element:`))
+//    if(max < broj){
+//     max = broj
+//    }
+// }
+// console.log(max);
+
+
+/////////////////////////////////////////////////////////
+
+
+// let suma = 0;
+
+// console.log("Brojevi od 1 do 100 koji su deljivi sa 6:");
+
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 6 === 0) {
+//     console.log(i);
+//     suma += i;
+//   }
+// }
+
+// console.log("Resenje: " + suma);
+
+
+// //////////////////////////////////////////////////////////////////////////////////////////////4.17for (let A = 1; A <= 9; A++) {
+    
+
+// for (let A = 1; A <= 9; A++) {
+//     for (let B = 0; B <= 9; B++) {
+//         for (let C = 0; C <= 9; C++) {
+//             let ABC = A * 100 + B * 10 + C;
+//             let AB = A * 10 + B;
+//             if (ABC === AB * AB - C * C) {
+//                 console.log(ABC);
+//             }
+//         }
+//     }
+// }
+
+///////////////////////
+
+
+// for (let broj = 100; broj < 1000; broj++) {
+//     let digit1 = Math.floor(broj / 100);
+//     let digit2 = Math.floor((broj % 100) / 10);
+//     let digit3 = number % 10;
+//     let divisor = parseInt(digit1.toString() + digit3.toString());
+
+//     if (broj % divisor === 0) {
+//         console.log(broj);
+//     }
+// }
+
 
